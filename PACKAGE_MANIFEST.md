@@ -13,6 +13,7 @@ Generated: 2026-06-15
 - `task-prompt-orchestrator/SKILL.md`
 - `task-prompt-orchestrator/agents/openai.yaml`
 - `task-prompt-orchestrator/references/`
+- `task-prompt-orchestrator/references/chinese_introduction.md`
 - `task-prompt-orchestrator/scripts/`
 
 ## Validation

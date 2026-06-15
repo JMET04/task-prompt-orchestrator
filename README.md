@@ -2,6 +2,18 @@
 
 `task-prompt-orchestrator` is a Codex skill for turning messy user requests into execution-ready workflows. It collects the task inputs, scans available skills/plugins/tools, selects the smallest useful professional workflow, improves prompts before execution, emits prompt packets, and verifies outputs.
 
+## 中文介绍
+
+这个 skill 是一个低 token 消耗的任务提示词编排入口。它不会每次把完整提示词库读进上下文，而是先收集用户目标、输入材料、约束、可用插件/skill/工具和验收标准，再通过索引、脚本和专业矩阵选择最小可用工作流。
+
+完整中文说明位于：
+
+```text
+task-prompt-orchestrator/references/chinese_introduction.md
+```
+
+其中包括 skill 功能定位、任务接收信息结构、capability-first 能力扫描、prompt packet 工作流拆分、渐进式披露实现原理，以及为什么不会每次读取完整提示词库。
+
 ## What It Does
 
 - Normalizes user goals, files, links, constraints, workspace state, and acceptance checks into a compact intake packet.
@@ -36,6 +48,7 @@ task-prompt-orchestrator/
   SKILL.md
   agents/openai.yaml
   references/
+    chinese_introduction.md
   scripts/
 ```
 
@@ -66,3 +79,6 @@ This version improves the skill's receiving/intake behavior:
 - Strengthens plugin/skill discovery and common GitHub/Codex/OpenAI plugin routing.
 - Updates `agents/openai.yaml` so the UI default prompt asks for goal, inputs, constraints, available skills/plugins, and acceptance checks.
 
+## Latest Chinese Introduction Update
+
+This version adds a detailed Chinese introduction explaining what the skill does, how it works internally, and how the low-token progressive-disclosure design avoids reading the full prompt library on every run.

@@ -26,6 +26,8 @@ Capability-first rule: before inventing a workflow or generic prompt, check whet
 
 Low-cost activation rule: for broad AI-control, beginner workflow, prompt-system, plugin-selection, or all-domain routing requests, start with `references/ai_full_domain_activation_directory.md`, then load only the smallest exact index, plugin directory, or workflow matrix needed for the active task. Treat image2 as one creative-generation domain inside the broader AI workflow system unless the user explicitly asks for image/image2 work.
 
+Chinese introduction rule: when the user asks what this skill does, how it works, how it saves tokens, how to explain it to a Chinese-speaking user, or how to document/publish it, read `references/chinese_introduction.md`. Do not load that long introduction during normal routing unless the introduction itself is part of the requested deliverable.
+
 ## Workflow
 
 ### 1. Intake

@@ -7,6 +7,7 @@ Generated: 2026-06-15
 - Repository staging path: `D:\github\task-prompt-orchestrator`
 - Skill folder: `task-prompt-orchestrator/`
 - Archive: `dist/task-prompt-orchestrator.zip`
+- Git bundle: `dist/task-prompt-orchestrator.git.bundle`
 
 ## Included Runtime Files
 
@@ -38,8 +39,15 @@ Top routes:
 
 ## GitHub Upload Status
 
-Local repository packaging is prepared. Remote upload requires either:
+- Remote repository: `https://github.com/JMET04/task-prompt-orchestrator`
+- Pushed branch: `main`
+- Initial upload status: complete on 2026-06-15
 
-- an existing GitHub repository URL to add as `origin`, or
-- GitHub CLI / token / authenticated Git credentials that can create or push a repository.
+The package was created from the local staging repository and uploaded with the same commit history.
 
+Non-interactive probe on 2026-06-15:
+
+```text
+https://github.com/Imbad0202/task-prompt-orchestrator.git -> Repository not found
+https://github.com/JMET04/task-prompt-orchestrator.git -> created and pushed
+```

@@ -27,19 +27,22 @@ Constraints: no readable text, no random characters, no brand logos, no QR code,
 
 ```text
 Task Prompt Orchestrator
-低 token 工作流调度台
-把模糊需求变成可执行、可验证、可交接的专业工作流
-先扫描能力 · 再选择最小索引 · 最后生成提示词包
+低 Token 工作流调度台
+把模糊需求变成专业执行路径
 
-01 收集输入
-目标、文件、约束、权限、验收标准先归位
+能力优先
+最小索引
+验证交付
 
-02 路由能力
-优先调用已安装 skill、插件、脚本和索引
+01 收集
+目标 / 输入 / 约束
 
-03 节省 token
-不全量读取提示词库，只加载命中的最小文件
+02 路由
+Skill / 插件 / 工具
 
-适合：image2 工作流 · GitHub 发布 · 插件扫描 · 多步骤自动化 · 专业提示词库路由
-Use $task-prompt-orchestrator → smallest useful workflow, verified output
+03 验收
+证据 / 链接 / 输出
+
+不全量读取提示词库，只加载命中的最小索引
+Use $task-prompt-orchestrator -> smaller context, stronger workflow
 ```

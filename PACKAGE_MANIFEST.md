@@ -7,6 +7,8 @@ Generated: 2026-06-15
 - Repository staging path: `D:\github\task-prompt-orchestrator`
 - Skill folder: `task-prompt-orchestrator/`
 - Archive: `dist/task-prompt-orchestrator.zip`
+- Promotional poster: `promo/task-prompt-orchestrator-poster-cn.png`
+- Poster prompt: `promo/poster_prompt.md`
 
 ## Included Runtime Files
 
@@ -15,6 +17,13 @@ Generated: 2026-06-15
 - `task-prompt-orchestrator/references/`
 - `task-prompt-orchestrator/references/chinese_introduction.md`
 - `task-prompt-orchestrator/scripts/`
+
+## Included Repository Promotional Files
+
+- `promo/task-prompt-orchestrator-poster-base.png`
+- `promo/task-prompt-orchestrator-poster-cn.png`
+- `promo/poster_prompt.md`
+- `promo/render_poster.py`
 
 ## Validation
 

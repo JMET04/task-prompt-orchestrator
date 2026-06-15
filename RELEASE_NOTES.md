@@ -6,6 +6,9 @@
 - Added the `Input Information Contract` to make required task inputs explicit before planning.
 - Added `references/chinese_introduction.md` with a detailed Chinese explanation of the skill's features, implementation principles, and low-token behavior.
 - Added a `SKILL.md` routing rule so the Chinese introduction is loaded only for documentation/explanation tasks, not during normal execution.
+- Expanded `references/chinese_introduction.md` into a richer Chinese product-style guide with use cases, examples, implementation details, and a stronger low-token promise.
+- Added `promo/task-prompt-orchestrator-poster-cn.png`, generated through the image2 poster/KV workflow and locally typeset with real Chinese copy.
+- Added `promo/poster_prompt.md` and `promo/render_poster.py` so the poster prompt and local typography process are reproducible.
 - Updated `agents/openai.yaml`:
   - `short_description`: `Collect task inputs and route expert workflows.`
   - `default_prompt`: asks for goal, inputs, constraints, available skills/plugins, and acceptance checks before routing.

@@ -2,9 +2,13 @@
 
 `task-prompt-orchestrator` is a Codex skill for turning messy user requests into execution-ready workflows. It collects the task inputs, scans available skills/plugins/tools, selects the smallest useful professional workflow, improves prompts before execution, emits prompt packets, and verifies outputs.
 
+![Task Prompt Orchestrator promotional poster](promo/task-prompt-orchestrator-poster-cn.png)
+
 ## 中文介绍
 
-这个 skill 是一个低 token 消耗的任务提示词编排入口。它不会每次把完整提示词库读进上下文，而是先收集用户目标、输入材料、约束、可用插件/skill/工具和验收标准，再通过索引、脚本和专业矩阵选择最小可用工作流。
+这个 skill 是一个低 token 消耗的任务提示词编排入口。它把用户随口说出的需求，转化成可执行、可验证、可交接的专业工作流。
+
+它不会每次把完整提示词库读进上下文，而是先收集用户目标、输入材料、约束、可用插件/skill/工具和验收标准，再通过索引、脚本和专业矩阵选择最小可用工作流。它更像 Codex 的任务调度台：先扫描能力，再选择最小索引，最后生成专业提示词包并完成验收。
 
 完整中文说明位于：
 
@@ -12,7 +16,14 @@
 task-prompt-orchestrator/references/chinese_introduction.md
 ```
 
-其中包括 skill 功能定位、任务接收信息结构、capability-first 能力扫描、prompt packet 工作流拆分、渐进式披露实现原理，以及为什么不会每次读取完整提示词库。
+其中包括 skill 功能定位、适用场景、任务接收信息结构、capability-first 能力扫描、prompt packet 工作流拆分、渐进式披露实现原理、索引优先策略、脚本快速路由，以及为什么不会每次读取完整提示词库。
+
+宣传海报和 image2 生成提示词位于：
+
+```text
+promo/task-prompt-orchestrator-poster-cn.png
+promo/poster_prompt.md
+```
 
 ## What It Does
 
@@ -82,3 +93,7 @@ This version improves the skill's receiving/intake behavior:
 ## Latest Chinese Introduction Update
 
 This version adds a detailed Chinese introduction explaining what the skill does, how it works internally, and how the low-token progressive-disclosure design avoids reading the full prompt library on every run.
+
+## Latest Poster Update
+
+This version adds a Chinese promotional poster generated through the image2 poster/KV workflow. The visual background was generated without readable fake text, then real Chinese copy was overlaid locally for clean typography.

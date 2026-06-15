@@ -7,7 +7,6 @@ Generated: 2026-06-15
 - Repository staging path: `D:\github\task-prompt-orchestrator`
 - Skill folder: `task-prompt-orchestrator/`
 - Archive: `dist/task-prompt-orchestrator.zip`
-- Git bundle: `dist/task-prompt-orchestrator.git.bundle`
 
 ## Included Runtime Files
 

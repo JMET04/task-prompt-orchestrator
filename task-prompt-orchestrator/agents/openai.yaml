@@ -1,0 +1,4 @@
+interface:
+  display_name: "Task Prompt Orchestrator"
+  short_description: "Collect task inputs and route expert workflows."
+  default_prompt: "Use $task-prompt-orchestrator to collect my goal, inputs, constraints, available skills/plugins, and acceptance checks, then route it through the smallest useful workflow and execute or produce prompt packets."

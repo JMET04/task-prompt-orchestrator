@@ -1,0 +1,57 @@
+[
+  {
+    "name": "beginner-first-ask",
+    "query": "我是小白不会问AI，帮我写一个能完成任务的提示词",
+    "expected_first_route": "beginner-ai-control",
+    "expected_first_starter": "SP01"
+  },
+  {
+    "name": "research-writing",
+    "query": "我想学习怎么用AI做研究和写作",
+    "expected_first_route": "beginner-ai-control",
+    "expected_first_starter": "SP03",
+    "expected_any_route": "research-evidence"
+  },
+  {
+    "name": "code-app-build",
+    "query": "帮我写代码做一个 todo app 并测试",
+    "expected_first_route": "code-app-build",
+    "expected_first_starter": "SP06"
+  },
+  {
+    "name": "github-plugin-install",
+    "query": "帮我安装github插件自动处理PR和repo",
+    "expected_first_route": "github-codex-openai",
+    "expected_first_starter": "SP11"
+  },
+  {
+    "name": "image2-packaging-cad",
+    "query": "image2 生成专业包装 CAD 图纸提示词",
+    "expected_first_route": "image-creative-generation",
+    "expected_first_starter": "SP05"
+  },
+  {
+    "name": "data-report",
+    "query": "分析表格数据做一个指标报表",
+    "expected_first_route": "data-analytics",
+    "expected_first_starter": "SP07"
+  },
+  {
+    "name": "coverage-audit",
+    "query": "汇报整个工作流库覆盖范围和数量级是否全面",
+    "expected_first_route": "coverage-audit",
+    "expected_first_starter": "SP12"
+  },
+  {
+    "name": "high-risk-legal",
+    "query": "帮我处理法律合规风险并整理证据",
+    "expected_first_route": "high-risk",
+    "expected_first_starter": "SP03"
+  },
+  {
+    "name": "marketing-content",
+    "query": "帮我写营销广告文案并生成三个版本",
+    "expected_first_route": "business-growth",
+    "expected_first_starter": "SP09"
+  }
+]
